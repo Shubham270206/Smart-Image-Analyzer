@@ -4,7 +4,7 @@ A Computer Vision Based Image Processing and Feature Analysis System built using
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Smart Image Analyzer is an interactive Computer Vision application that analyzes an uploaded image through multiple image-processing stages.
 
@@ -14,7 +14,7 @@ The project follows a modular architecture where different Computer Vision opera
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Process and analyze digital images using Computer Vision techniques.
 - Convert images into useful representations such as grayscale and binary images.
@@ -26,7 +26,7 @@ The project follows a modular architecture where different Computer Vision opera
 
 ---
 
-## ✨ Features
+##  Features
 
 ### 1. Image Preprocessing
 
@@ -76,7 +76,7 @@ All results are presented using an interactive Streamlit interface.
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The application follows the workflow:
 
@@ -129,7 +129,7 @@ Test coverage includes:
 
 All 6 tests passed successfully.
 
-## ⚠️ Error Handling
+##  Error Handling
 
 The application validates the uploaded image before processing.
 
@@ -140,7 +140,7 @@ Supported formats:
 
 If an invalid or unreadable image is uploaded, the application displays an appropriate error message.
 
-## 📋 Requirements
+##  Requirements
 
 ### Functional Requirements
 
@@ -159,7 +159,7 @@ If an invalid or unreadable image is uploaded, the application displays an appro
 - Maintainability
 - Portability
 
-## 🚀 Future Scope
+##  Future Scope
 
 - Object detection using deep learning
 - Face detection and recognition
@@ -168,7 +168,7 @@ If an invalid or unreadable image is uploaded, the application displays an appro
 - Batch image processing
 - Downloadable analysis reports
 
-## 👨‍💻 Project Information
+##  Project Information
 
 **Project:** Smart Image Analyzer  
 **Domain:** Computer Vision  
