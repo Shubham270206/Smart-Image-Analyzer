@@ -80,7 +80,6 @@ All results are presented using an interactive Streamlit interface.
 
 The application follows the workflow:
 
-```text
                     USER
                      │
                      ▼
@@ -115,3 +114,69 @@ The application follows the workflow:
                      │
                      ▼
                   Results
+
+## 🧪 Testing
+
+The project includes automated unit tests using Pytest.
+
+Test coverage includes:
+- Grayscale conversion
+- Gaussian blur
+- Thresholding
+- Canny edge detection
+- Image statistics
+- Edge feature extraction
+
+All 6 tests passed successfully.
+
+## ⚠️ Error Handling
+
+The application validates the uploaded image before processing.
+
+Supported formats:
+- JPG
+- JPEG
+- PNG
+
+If an invalid or unreadable image is uploaded, the application displays an appropriate error message.
+
+## 📋 Requirements
+
+### Functional Requirements
+
+- FR1: Upload an image
+- FR2: Preprocess the image
+- FR3: Detect image edges
+- FR4: Analyze contours and shapes
+- FR5: Extract image features
+- FR6: Display analysis results
+
+### Non-Functional Requirements
+
+- Usability
+- Performance
+- Reliability
+- Maintainability
+- Portability
+
+## 🚀 Future Scope
+
+- Object detection using deep learning
+- Face detection and recognition
+- Advanced feature descriptors such as SIFT and HOG
+- Image classification
+- Batch image processing
+- Downloadable analysis reports
+
+## 👨‍💻 Project Information
+
+**Project:** Smart Image Analyzer  
+**Domain:** Computer Vision  
+**Language:** Python  
+**Framework:** Streamlit  
+**Libraries:** OpenCV, NumPy, Pillow  
+**Testing:** Pytest
+
+## 🔗 GitHub Repository
+
+[Smart Image Analyzer](https://github.com/Shubham270206/Smart-Image-Analyzer)
