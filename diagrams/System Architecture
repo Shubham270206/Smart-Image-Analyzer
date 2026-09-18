@@ -1,0 +1,37 @@
++----------------+
+|      USER      |
++-------+--------+
+        |
+        v
++----------------------+
+|   Streamlit UI       |
+|   Image Upload       |
++----------+-----------+
+           |
+           v
++----------------------+
+| Image Preprocessing  |
+| Grayscale            |
+| Gaussian Blur        |
+| Thresholding         |
++----------+-----------+
+           |
+           v
++----------------------+
+| Computer Vision      |
+| Edge Detection       |
+| Contour Analysis     |
++----------+-----------+
+           |
+           v
++----------------------+
+| Feature Extraction   |
+| Image Statistics     |
+| Edge Features        |
++----------+-----------+
+           |
+           v
++----------------------+
+| Results &            |
+| Visualization        |
++----------------------+
